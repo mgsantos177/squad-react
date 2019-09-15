@@ -1,0 +1,103 @@
+.effect .navbar-content {
+    transition-property: margin-left;
+};
+.effect #navbar, .effect #content-container, .effect #mainnav-container, .effect #aside-container, .effect #footer, .effect .navbar-brand, .effect .navbar-content, .effect .navbar-header:before, .effect .page-fixedbar-container {
+    transition-property: width, padding, left, right;
+    transition-duration: .35s;
+};
+
+.navbar-content {
+    position: relative;
+    left: 0;
+    margin-left: 220px;
+    background-color: transparent;
+}
+.navbar-content {
+    background-color: #25476a;
+    height: 59px;
+    text-align: right;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    background-color: #ecf0f5;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #7a878e;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background-color: #25476a;
+    color: #fff;
+}
+.brand-text {
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#container.mainnav-in .brand-title, #container.mainnav-sm .brand-title, #container.mainnav-lg .brand-title {
+    color: #fff;
+}
+
+.brand-title {
+    display: block;
+    line-height: 59px;
+}
+.navbar-brand {
+    color: #25476a;
+    padding: 0;
+    height: 59px;
+    position: relative;
+    z-index: 2000;
+    overflow: hidden;
+}
+
+::selection {
+    background-color: #25476a;
+    color: #fff;
+}
+
+.teste {
+    top: 20px;
+}
+

@@ -1,0 +1,27 @@
+.brand-text {
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#container.mainnav-in .brand-title, #container.mainnav-sm .brand-title, #container.mainnav-lg .brand-title {
+    color: #fff;
+}
+
+.brand-title {
+    display: block;
+    line-height: 59px;
+}
+.navbar-brand {
+    color: #25476a;
+    padding: 0;
+    height: 59px;
+    position: relative;
+    z-index: 2000;
+    overflow: hidden;
+}
+
+::selection {
+    background-color: #25476a;
+    color: #fff;
+}
